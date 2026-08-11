@@ -8,7 +8,7 @@ class Moderation(commands.Cog):
         self.bot = bot
         
         # === НАСТРОЙКИ (ВСТАВЬ СВОИ ID СЮДА) ===
-        self.LOG_CHANNEL_ID = "" # ID канала логов
+        self.LOG_CHANNEL_ID = "1536784138080747621" # ID канала логов
         
         # ID ролей СПЕЦ-НАКАЗАНИЙ (Муты и Баны теперь системные, им роли не нужны)
         self.ROLE_EVENT_BAN = ""
