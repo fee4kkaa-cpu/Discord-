@@ -97,8 +97,8 @@ class PrivateVoice(commands.Cog):
         self.bot = bot
         
         # ================= НАСТРОЙКИ =================
-        self.category_id = ""      # ID категории, где будут создаваться румы
-        self.create_channel_id = "" # ID голосового канала "Создать комнату ➕"
+        self.category_id = "1531975980522934382"      # ID категории, где будут создаваться румы
+        self.create_channel_id = "1536786972276949003" # ID голосового канала "Создать комнату ➕"
         # =============================================
 
     @app_commands.command(name="setup_voice_panel", description="Установить панель управления приватными комнатами")
