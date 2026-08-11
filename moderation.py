@@ -11,11 +11,11 @@ class Moderation(commands.Cog):
         self.LOG_CHANNEL_ID = "1536784138080747621" # ID канала логов
         
         # ID ролей СПЕЦ-НАКАЗАНИЙ (Муты и Баны теперь системные, им роли не нужны)
-        self.ROLE_EVENT_BAN = ""
-        self.ROLE_MAFIA_BAN = ""
-        self.ROLE_CHILL_BAN = ""
-        self.ROLE_CLOSE_BAN = ""
-        self.ROLE_NO_VERIFY = "" # Недопуск к верификации
+        self.ROLE_EVENT_BAN = "1536785214775234701"
+        self.ROLE_MAFIA_BAN = "1536785214775234701"
+        self.ROLE_CHILL_BAN = "1536785214775234701"
+        self.ROLE_CLOSE_BAN = "1536785214775234701"
+        self.ROLE_NO_VERIFY = "1536785214775234701" # Недопуск к верификации
         # =======================================
 
     async def send_log(self, guild: discord.Guild, action: str, moderator: discord.Member, target: discord.Member, reason: str, color: discord.Color, extra: str = None):
