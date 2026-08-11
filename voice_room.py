@@ -5,7 +5,7 @@ class VoiceRooms(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         # ID канала-хаба "➕ Создать комнату"
-        self.hub_channel_id = 123456789012345678 
+        self.hub_channel_id = 1536786972276949003 
         self.active_rooms = []
 
     @commands.Cog.listener()
