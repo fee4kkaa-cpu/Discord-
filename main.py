@@ -46,7 +46,7 @@ class NebulaBot(commands.Bot):
 bot = NebulaBot()
 
 # Токен бота (лучше использовать переменные окружения)
-TOKEN = "ВАШТОКЕНБОТА" 
+TOKEN = "MTUzNjc3NTA3OTA4NDQzMzQ5OQ.GdC43h.1w49vHbJpkT_S9OEMlX9iFjM_XxUBjOCSaU27M" 
 
 if __name__ == "__main__":
     bot.run(TOKEN)
