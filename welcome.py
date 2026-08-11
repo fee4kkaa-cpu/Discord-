@@ -8,7 +8,7 @@ class Welcome(commands.Cog):
     @commands.Cog.listener()
     async def on_member_join(self, member: discord.Member):
         # ЗАМЕНИТЬ НА ID РОЛИ И КАНАЛА:
-        role_id = ""  
+        role_id = "1527080134094360659"  
         channel_id = "1527080134094360662" 
         
         role = member.guild.get_role(role_id)
