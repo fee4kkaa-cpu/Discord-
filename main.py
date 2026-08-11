@@ -5,7 +5,7 @@ import asyncio
 from database import init_db
 
 # ID твоего сервера для мгновенной синхронизации команд
-MY_GUILD = discord.Object(id=ВАШИДКАНАЛДС) 
+MY_GUILD = discord.Object(id=1527080134094360657) 
 
 intents = discord.Intents.default()
 intents.message_content = True
